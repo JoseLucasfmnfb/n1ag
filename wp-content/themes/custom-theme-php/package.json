@@ -1,0 +1,30 @@
+{
+  "name": "meu-projeto-gulp",
+  "version": "1.0.0",
+  "description": "Projeto com Gulp para compilar Sass e minificar CSS/JS",
+  "main": "gulpfile.js",
+  "scripts": {
+    "start": "gulp",
+    "watch": "gulp watch",
+    "build": "gulp"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.28.4",
+    "@babel/preset-env": "^7.28.3",
+    "gulp": "^4.0.2",
+    "gulp-babel": "^8.0.0",
+    "gulp-concat": "^2.6.1",
+    "gulp-csso": "^4.0.1",
+    "gulp-sass": "^5.1.0",
+    "gulp-uglify": "^3.0.2",
+    "sass": "^1.93.2"
+  },
+  "dependencies": {
+    "@fortawesome/fontawesome-free": "^7.1.0",
+    "bootstrap": "^5.3.8",
+    "jquery": "^3.7.1",
+    "jquery-mask-plugin": "^1.14.16",
+    "lightgallery": "^2.9.0",
+    "slick-carousel": "^1.8.1"
+  }
+}

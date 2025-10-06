@@ -1,0 +1,48 @@
+$fonte1 : 'Roboto';
+$fonte2 : 'Raleway';
+$fonte3 : 'Proxima Nova';
+
+@include font-face("Western", fonts/fonts-bady/western_bang_bang/Western-Bang-Bang, 500, ttf);
+@include font-face("Coolvetica", fonts/fonts-bady/coolvetica, 500, ttf);
+@include font-face("Reklame", fonts/fonts-bady/ReklameScript-Medium, 500, woff);
+
+// from google fonts
+@import url('https://fonts.googleapis.com/css?family=Roboto:300,400,500,700,900');
+
+// from local
+@font-face {
+    font-family: 'Raleway';
+    src: url('fonts/Raleway-Light.ttf') format('truetype'); 
+    font-weight: 300;
+}
+@font-face {
+    font-family: 'Raleway';
+    src: url('fonts/Raleway-Regular.ttf') format('truetype'); 
+    font-weight: 400;
+}
+@font-face {
+    font-family: 'Raleway';
+    src: url('fonts/Raleway-Bold.ttf') format('truetype'); 
+    font-weight: 500;
+}
+@font-face {
+    font-family: 'Raleway';
+    src: url('fonts/Raleway-Black.ttf') format('truetype'); 
+    font-weight: 600;
+}
+
+@font-face {
+    font-family: 'Proxima Nova';
+    src: url('fonts/ProximaNova-Light.otf') format('opentype'); 
+    font-weight: 300;
+}
+@font-face {
+    font-family: 'Proxima Nova';
+    src: url('fonts/ProximaNova-Regular.otf') format('opentype'); 
+    font-weight: 400;
+}
+@font-face {
+    font-family: 'Proxima Nova';
+    src: url('fonts/ProximaNova-Bold.otf') format('opentype'); 
+    font-weight: 500;
+}
